@@ -447,7 +447,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-[var(--color-border)] py-6">
         <p className="text-center text-xs text-[var(--color-text-secondary)]">
-          试卷 OCR · 基于百度文字识别 API · 数据仅在本地处理
+          试卷 OCR · 基于百度文字识别 API · 数据仅在本地处理 · by lisa23
         </p>
       </footer>
     </div>
