@@ -73,7 +73,6 @@ async function callOpenAICompatible(
         { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: text },
       ],
-      temperature: 0.3,
     }),
   });
 
@@ -113,7 +112,6 @@ async function callBaidu(body: RequestBody): Promise<string> {
       messages: [
         { role: "user", content: `${SYSTEM_PROMPT}\n\n以下是需要整理的内容：\n\n${body.text}` },
       ],
-      temperature: 0.3,
     }),
   });
 
